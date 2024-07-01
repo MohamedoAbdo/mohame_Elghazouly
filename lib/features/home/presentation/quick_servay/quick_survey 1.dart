@@ -84,7 +84,7 @@ class _QuickPage1State extends State<QuickPage1> {
                       color: Color(0xff6C3428),
                       fontSize: 24,
                       fontFamily: 'Inter',
-                      fontWeight: FontWeight.w500,
+                      fontWeight: FontWeight.w600,
                     ),
                   ),
                 ],

@@ -348,7 +348,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                       children: [
                         Icon(
                           Icons.favorite,
-                          color: Color(0xffBE8C63),
+                          color: Color(0xffE4D1B9),
                         ),
                       ],
                     ),
@@ -387,7 +387,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                       children: [
                         Icon(
                           Icons.person_rounded,
-                          color: Color(0xffE4D1B9),
+                          color: Color(0xffBE8C63),
                         ),
                       ],
                     ),

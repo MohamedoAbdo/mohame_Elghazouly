@@ -2,6 +2,7 @@ import 'package:tourism_app/models/Resturant_model.dart';
 
 final searchKeys = [
   "Restaurant",
+  "restaurant",
   "Food",
   "مطعم",
   "مطاعم",
@@ -12,7 +13,7 @@ final restaurants = [
     image: "assets/image/017.jpg",
     name: "Bazooka",
     album: [
-      "assets/image/0171.jpg",
+      'assets/image/0131.jpg',
       "assets/image/0172.jpg",
     ],
     description: "bazooka",

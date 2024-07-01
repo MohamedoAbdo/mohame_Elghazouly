@@ -233,7 +233,118 @@
 //                           ),
 //                         ),
 //                       ),
+//                       Row(
+//                         children: [
+//                           Text(
+//                             "      ",
+//                           )
+//                         ],
+//                       ),
+//                       Row(
+//                         children: [
+//                           InkWell(
+//                             onTap: () {
+//                               Navigator.push(
+//                                 context,
+//                                 MaterialPageRoute(
+//                                     builder: (context) => PharaonicVillage()),
+//                               );
+//                             },
+//                             child: Container(
+//                                 child: Column(children: [
+//                               Stack(children: [
+//                                 Image.asset(
+//                                   'assets/image/Rectangle 336 (1).png',
+//                                   height:
+//                                       MediaQuery.of(context).size.height * .25,
+//                                   width:
+//                                       MediaQuery.of(context).size.width * .45,
+//                                 ),
+//                               ])
+//                             ])),
+//                           ),
+//                         ],
+//                       ),
 //                     ],
+//                   ),
+//                   SizedBox(
+//                     height: MediaQuery.of(context).size.height * .02,
+//                   ),
+//                   Row(
+//                     children: [
+//                       Row(
+//                         children: [
+//                           Row(
+//                             children: [
+//                               Text(
+//                                 "  ",
+//                               )
+//                             ],
+//                           ),
+//                           InkWell(
+//                             onTap: () {
+//                               Navigator.push(
+//                                 context,
+//                                 MaterialPageRoute(
+//                                     builder: (context) => PharaonicVillage()),
+//                               );
+//                             },
+//                             child: Container(
+//                                 child: Column(children: [
+//                               Stack(children: [
+//                                 Image.asset(
+//                                   'assets/image/Rectangle 336 (2).png',
+//                                   height:
+//                                       MediaQuery.of(context).size.height * .25,
+//                                   width:
+//                                       MediaQuery.of(context).size.width * .45,
+//                                 ),
+//                               ])
+//                             ])),
+//                           ),
+//                         ],
+//                       ),
+//                       Row(
+//                         children: [
+//                           Text(
+//                             "      ",
+//                           )
+//                         ],
+//                       ),
+//                       Row(
+//                         children: [
+//                           InkWell(
+//                             onTap: () {
+//                               Navigator.push(
+//                                 context,
+//                                 MaterialPageRoute(
+//                                     builder: (context) => PharaonicVillage()),
+//                               );
+//                             },
+//                             child: Container(
+//                               child: Column(
+//                                 children: [
+//                                   Stack(children: [
+//                                     Image.asset(
+//                                       'assets/image/Rectangle 336 (3).png',
+//                                       height:
+//                                           MediaQuery.of(context).size.height *
+//                                               .25,
+//                                       width: MediaQuery.of(context).size.width *
+//                                           .45,
+//                                     ),
+//                                   ])
+//                                 ],
+//                               ),
+//                             ),
+//                           ),
+//                         ],
+//                       ),
+//                     ],
+//                   ),
+//                   SizedBox(
+//                     width: MediaQuery.of(context).size.width * 1,
+//                     height: MediaQuery.of(context).size.height * .02,
 //                   ),
 //                 ],
 //               ),

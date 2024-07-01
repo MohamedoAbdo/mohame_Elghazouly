@@ -225,8 +225,144 @@ class _PlaceDetailsScreenState extends State<PlaceDetailsScreen> {
                               ),
                             ),
                             SizedBox(
-                                height:
-                                    MediaQuery.of(context).size.height * .032),
+                              height: MediaQuery.of(context).size.height * .02,
+                            ),
+                            Row(
+                              children: [
+                                Row(
+                                  children: [
+                                    const Row(
+                                      children: [
+                                        Text(
+                                          "  ",
+                                        )
+                                      ],
+                                    ),
+                                    InkWell(
+                                      onTap: () {},
+                                      child: Container(
+                                          child: Column(children: [
+                                        Stack(children: [
+                                          Image.asset(
+                                            'assets/image/Rectangle 336.png',
+                                            height: MediaQuery.of(context)
+                                                    .size
+                                                    .height *
+                                                .25,
+                                            width: MediaQuery.of(context)
+                                                    .size
+                                                    .width *
+                                                .45,
+                                          ),
+                                        ])
+                                      ])),
+                                    ),
+                                  ],
+                                ),
+                                const Row(
+                                  children: [
+                                    Text(
+                                      "       ",
+                                    )
+                                  ],
+                                ),
+                                Row(
+                                  children: [
+                                    InkWell(
+                                      onTap: () {},
+                                      child: Container(
+                                          child: Column(children: [
+                                        Stack(children: [
+                                          Image.asset(
+                                            'assets/image/Rectangle 336 (1).png',
+                                            height: MediaQuery.of(context)
+                                                    .size
+                                                    .height *
+                                                .25,
+                                            width: MediaQuery.of(context)
+                                                    .size
+                                                    .width *
+                                                .45,
+                                          ),
+                                        ])
+                                      ])),
+                                    ),
+                                  ],
+                                ),
+                              ],
+                            ),
+                            SizedBox(
+                              height: MediaQuery.of(context).size.height * .02,
+                            ),
+                            //
+
+                            Row(
+                              children: [
+                                Row(
+                                  children: [
+                                    const Row(
+                                      children: [
+                                        Text(
+                                          "  ",
+                                        )
+                                      ],
+                                    ),
+                                    InkWell(
+                                      onTap: () {},
+                                      child: Container(
+                                          child: Column(children: [
+                                        Stack(children: [
+                                          Image.asset(
+                                            'assets/image/Rectangle 336 (2).png',
+                                            height: MediaQuery.of(context)
+                                                    .size
+                                                    .height *
+                                                .25,
+                                            width: MediaQuery.of(context)
+                                                    .size
+                                                    .width *
+                                                .45,
+                                          ),
+                                        ])
+                                      ])),
+                                    ),
+                                  ],
+                                ),
+                                const Row(
+                                  children: [
+                                    Text(
+                                      "       ",
+                                    )
+                                  ],
+                                ),
+                                Row(
+                                  children: [
+                                    InkWell(
+                                      onTap: () {},
+                                      child: Container(
+                                        child: Column(
+                                          children: [
+                                            Stack(children: [
+                                              Image.asset(
+                                                'assets/image/Rectangle 336 (3).png',
+                                                height: MediaQuery.of(context)
+                                                        .size
+                                                        .height *
+                                                    .25,
+                                                width: MediaQuery.of(context)
+                                                        .size
+                                                        .width *
+                                                    .45,
+                                              ),
+                                            ])
+                                          ],
+                                        ),
+                                      ),
+                                    ),
+                                  ],
+                                ),
+                              ],
+                            ),
                           ],
                         ),
                       ),

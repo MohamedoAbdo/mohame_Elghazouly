@@ -54,6 +54,7 @@ class _bage6State extends State<bage6> {
                           Icon(
                             Icons.arrow_back_ios,
                             color: Color(0xFF6C3428),
+                            size: 25,
                           ),
                         ],
                       ),
@@ -64,7 +65,7 @@ class _bage6State extends State<bage6> {
                         color: const Color(0xff6C3428),
                         fontSize: fontSize24,
                         fontFamily: 'inter',
-                        fontWeight: FontWeight.w500,
+                        fontWeight: FontWeight.w600,
                         height: MediaQuery.of(context).size.height * .002,
                       ),
                     ),
@@ -73,7 +74,7 @@ class _bage6State extends State<bage6> {
               ),
 
               SizedBox(
-                height: MediaQuery.of(context).size.height * .07,
+                height: MediaQuery.of(context).size.height * .05,
               ),
               //
               Row(

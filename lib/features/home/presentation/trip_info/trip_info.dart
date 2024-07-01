@@ -47,7 +47,7 @@ class Taba extends StatelessWidget {
                           child: Column(
                             children: [
                               Text(
-                                "Tapa",
+                                "Taba",
                                 style: TextStyle(
                                   color: Color(0xFFE4D1B9),
                                   fontSize: 24,
